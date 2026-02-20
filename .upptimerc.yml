@@ -1,6 +1,6 @@
 # 状态页设置
 owner: BYWled
-repo: status
+repo: wled-status
 
 # 要监控的站点
 sites:
