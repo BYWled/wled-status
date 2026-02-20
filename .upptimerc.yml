@@ -22,11 +22,11 @@ sites:
     url: https://mirror-status.wled.top
 
 # 状态页的展示设置
-status-page:
+status-website:
   # 稍后我们在 Cloudflare 配置这个二级域名
   cname: mirror-status.wled.top
   baseUrl: /
-  title: 伴莺の服务器状态监控
+  name: 伴莺の服务器状态监控
   navbar:
     - title: 状态列表
       href: /
