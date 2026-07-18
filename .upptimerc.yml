@@ -31,8 +31,6 @@ sites:
 
   - name: 📺 数字大屏
     url: https://city.wled.top
-  - name: 📺 数字大屏 (镜像)
-    url: https://mirror-city.wled.top
 
   - name: 📊 状态监控
     url: https://status.wled.top
