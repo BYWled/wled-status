@@ -2,46 +2,32 @@
 owner: BYWled
 repo: wled-status
 
-# 待监测的站点矩阵（包含主站与镜像站）
 sites:
-  # 1. 官网
-  - name: 🌐 官网 (主站)
+  - name: 🌐 官网
     url: https://www.wled.top
   - name: 🌐 官网 (镜像)
     url: https://mirror.wled.top
-
-  # 2. 博客
-  - name: 📝 博客 (主站)
+  - name: 📝 博客
     url: https://blog.wled.top
   - name: 📝 博客 (镜像)
-    url: https://mirror-blog.wled.top # 如果你的实际域名是 mirror.blog.wled.top，请按需微调
-
-  # 3. 乐购商城
-  - name: 🛒 乐购商城 (主站)
+    url: https://mirror-blog.wled.top
+  - name: 🛒 乐购商城
     url: https://store.wled.top
   - name: 🛒 乐购商城 (镜像)
     url: https://mirror-store.wled.top
-
-  # 4. 后台管理系统
-  - name: 🛠️ 后台管理系统 (主站)
+  - name: 🛠️ 后台管理系统
     url: https://admin.wled.top
   - name: 🛠️ 后台管理系统 (镜像)
     url: https://mirror-admin.wled.top
-
-  # 5. 光谱平台
-  - name: 🔬 光谱平台 (主站)
+  - name: 🔬 光谱平台
     url: https://score.wled.top
   - name: 🔬 光谱平台 (镜像)
     url: https://mirror-score.wled.top
-
-  # 6. 数字大屏
-  - name: 📺 数字大屏 (主站)
+  - name: 📺 数字大屏
     url: https://city.wled.top
   - name: 📺 数字大屏 (镜像)
     url: https://mirror-city.wled.top
-
-  # 7. 监控 - 服务器部署
-  - name: 📊 服务器监控 (主站)
+  - name: 📊 服务器监控
     url: https://status.wled.top
   - name: 📊 服务器监控 (本站)
     url: https://mirror-status.wled.top
@@ -54,5 +40,5 @@ status-page:
   navbar:
     - title: 状态监控
       href: /
-    - title: GitHub
+    - title: GitHub 主页
       href: https://github.com/BYWled
