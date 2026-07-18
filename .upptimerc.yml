@@ -1,34 +1,58 @@
-# 状态页设置
+# 核心仓库配置
 owner: BYWled
 repo: wled-status
 
-# 要监控的站点
+# 待监测的站点矩阵（包含主站与镜像站）
 sites:
-  - name: 🌐 博客（主站）
-    url: https://www.wled.top
-  - name: 🛒 乐购商城
-    url: https://store.wled.top
-  - name: 🛠️ 后台管理系统
-    url: https://admin.wled.top
-  - name: 📊 状态监控
-    url: https://status.wled.top/status
-  - name: 🌐 博客（主站） - Github镜像
-    url: https://mirror.wled.top
-  - name: 🛒 乐购商城 - Github镜像
-    url: https://mirror-store.wled.top
-  - name: 🛠️ 后台管理系统 - Github镜像
-    url: https://mirror-admin.wled.top
-  - name: 📊 状态监控 - Github（本页面）
-    url: https://mirror-status.wled.top
+  # 1. 官网
+  - name: 🌐 官网 (主站)
+    url: https://www.wled.top
+  - name: 🌐 官网 (镜像)
+    url: https://mirror.wled.top
 
-# 状态页的展示设置
-status-website:
-  # 稍后我们在 Cloudflare 配置这个二级域名
-  cname: mirror-status.wled.top
-  baseUrl: /
-  name: 伴莺の服务器状态监控
-  navbar:
-    - title: 状态列表
-      href: /
-    - title: GitHub主页
-      href: https://github.com/BYWled
+  # 2. 博客
+  - name: 📝 博客 (主站)
+    url: https://blog.wled.top
+  - name: 📝 博客 (镜像)
+    url: https://mirror-blog.wled.top # 如果你的实际域名是 mirror.blog.wled.top，请按需微调
+
+  # 3. 乐购商城
+  - name: 🛒 乐购商城 (主站)
+    url: https://store.wled.top
+  - name: 🛒 乐购商城 (镜像)
+    url: https://mirror-store.wled.top
+
+  # 4. 后台管理系统
+  - name: 🛠️ 后台管理系统 (主站)
+    url: https://admin.wled.top
+  - name: 🛠️ 后台管理系统 (镜像)
+    url: https://mirror-admin.wled.top
+
+  # 5. 光谱平台
+  - name: 🔬 光谱平台 (主站)
+    url: https://score.wled.top
+  - name: 🔬 光谱平台 (镜像)
+    url: https://mirror-score.wled.top
+
+  # 6. 数字大屏
+  - name: 📺 数字大屏 (主站)
+    url: https://city.wled.top
+  - name: 📺 数字大屏 (镜像)
+    url: https://mirror-city.wled.top
+
+  # 7. 监控 - 服务器部署
+  - name: 📊 服务器监控 (主站)
+    url: https://status.wled.top
+  - name: 📊 服务器监控 (本站)
+    url: https://mirror-status.wled.top
+
+# GitHub Pages 状态页展现设置
+status-page:
+  cname: mirror-status.wled.top
+  baseUrl: /
+  title: 伴莺の服务器状态监控
+  navbar:
+    - title: 状态监控
+      href: /
+    - title: GitHub
+      href: https://github.com/BYWled
