@@ -4,33 +4,33 @@ repo: wled-status
 
 sites:
   - name: 🌐 官网
-    url: https://www.wled.top
+    url: https://www.wled.top
   - name: 🌐 官网 (镜像)
-    url: https://mirror.wled.top
+    url: https://mirror.wled.top
   - name: 📝 博客
-    url: https://blog.wled.top
+    url: https://blog.wled.top
   - name: 📝 博客 (镜像)
-    url: https://mirror-blog.wled.top
+    url: https://mirror-blog.wled.top
   - name: 🛒 乐购商城
-    url: https://store.wled.top
+    url: https://store.wled.top
   - name: 🛒 乐购商城 (镜像)
-    url: https://mirror-store.wled.top
+    url: https://mirror-store.wled.top
   - name: 🛠️ 后台管理系统
-    url: https://admin.wled.top
+    url: https://admin.wled.top
   - name: 🛠️ 后台管理系统 (镜像)
-    url: https://mirror-admin.wled.top
+    url: https://mirror-admin.wled.top
   - name: 🔬 光谱平台
-    url: https://score.wled.top
+    url: https://score.wled.top
   - name: 🔬 光谱平台 (镜像)
-    url: https://mirror-score.wled.top
+    url: https://mirror-score.wled.top
   - name: 📺 数字大屏
-    url: https://city.wled.top
+    url: https://city.wled.top
   - name: 📺 数字大屏 (镜像)
-    url: https://mirror-city.wled.top
+    url: https://mirror-city.wled.top
   - name: 📊 服务器监控
-    url: https://status.wled.top
+    url: https://status.wled.top
   - name: 📊 服务器监控 (本站)
-    url: https://mirror-status.wled.top
+    url: https://mirror-status.wled.top
 
 # GitHub Pages 状态页展现设置
 status-page:
