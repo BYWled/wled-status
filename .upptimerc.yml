@@ -2,7 +2,7 @@
 owner: BYWled
 repo: wled-status
 
-# 待监测的站点矩阵（包含主站与镜像站）
+# 待监测的站点
 sites:
   - name: 🌐 官网
     url: https://www.wled.top
@@ -38,10 +38,11 @@ sites:
     url: https://mirror-status.wled.top
 
 # GitHub Pages 状态页展现设置
-status-page:
+status-website:
   cname: mirror-status.wled.top
+  logoUrl: https://blog.wled.top/images/Wled-avatar.svg
   baseUrl: /
-  title: BYWled 服务实时状态面板
+  title: BYWled 服务状态面板
   navbar:
     - title: 状态监控
       href: /
