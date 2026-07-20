@@ -1,7 +1,7 @@
 url: https://status.wled.top
-status: up
-code: 200
-responseTime: 517
-lastUpdated: 2026-07-20T01:26:37.455Z
+status: down
+code: 403
+responseTime: 17
+lastUpdated: 2026-07-20T04:48:31.779Z
 startTime: 2026-05-28T05:45:12.900Z
 generator: Upptime <https://github.com/upptime/upptime>
