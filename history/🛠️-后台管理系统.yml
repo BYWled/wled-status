@@ -1,7 +1,7 @@
 url: https://admin.wled.top
-status: up
-code: 200
-responseTime: 115
-lastUpdated: 2026-07-20T01:26:35.201Z
+status: down
+code: 403
+responseTime: 17
+lastUpdated: 2026-07-20T04:47:35.583Z
 startTime: 2026-05-28T05:45:11.821Z
 generator: Upptime <https://github.com/upptime/upptime>
