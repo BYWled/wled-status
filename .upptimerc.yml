@@ -42,7 +42,7 @@ status-website:
   cname: mirror-status.wled.top
   logoUrl: https://blog.wled.top/images/Wled-avatar.svg
   baseUrl: /
-  title: BYWled 服务状态面板
+  title: BYWled服务状态面板
   navbar:
     - title: 状态监控
       href: /
